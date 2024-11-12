@@ -1,0 +1,14 @@
+	Translatie (Mutare):
+Dupa fiecare schimbare a coordonatelor, punctele actuale vor fi considerate ca fiind (0,0) pt corp si in functie de alea se fac calculelel.
+	
+	Rotatie:
+Daca rotim in functie de un punct oarecare:
+1. Translatie in punctul de rotatie
+2. Rotatie
+3. Translatam inapoi
+
+	Scalare:
+sx, sy, sz - pt 3D
+
+*daca inmultim cu -1 ii dam flip
+

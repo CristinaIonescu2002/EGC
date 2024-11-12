@@ -1,0 +1,25 @@
+Vertex:
+-coordonate
+-culoare
+-normala
+
+Cum poate fi desenat:
+-prin puncte sau linii
+
+VBO = vertex buffer object	ex: VBO = {0, 1, 2, 3}		| VAO = vertex array object
+IBO = index buffer object	    VBI = {0, 1, 2}		| 
+
+GL_Triangle = da fill la culoare
+
+Face culling : -e disable putem sa punem orice ordine la puncte
+-enable, depinde din ce parte e vazut obiectul
+
+index ordine trigonometrica => vedem din fata - 1, 0, 2
+index in ordine de ceas => se vede din spate - 0, 2, 3
+
+
+GL_triangle_FAN = deseneaza pt noi triunghiuri (evantai)
+
+unsigned int VBO <=> GLuint VBO;
+
+punct: VertexFormat(glm:vec3(x, y, z), 
